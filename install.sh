@@ -1,3 +1,3 @@
-#!/usr/bin/sh
-chmod +x archfastdl.sh
-sudo cp archfastdl.sh /usr/bin/archfastdl
+#!/usr/bin/ruby
+system "chmod +x archfastdl.sh"
+system "sudo cp archfastdl.sh /usr/bin/archfastdl"
