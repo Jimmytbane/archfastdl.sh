@@ -1,5 +1,7 @@
 #!/bin/bash
+
 # This module makes using reflector as simple as using a single command on Arch GNU/Linux
+
 : '
       Copyright (C) 2017  jmfgdev
       This program is free software: you can redistribute it and/or modify
@@ -13,4 +15,5 @@
       You should have received a copy of the GNU Affero General Public License
       along with this program.  If not, see <https://www.gnu.org/licenses/>.
 '
+
 sudo reflector --age 2 --protocol https --latest 2 --sort rate --save /etc/pacman.d/mirrorlist
