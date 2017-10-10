@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 def archfastdl():
+      
       import os
 
   """ This module makes using reflector as simple as using a single command on Arch GNU/Linux """
